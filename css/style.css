@@ -1,0 +1,88 @@
+body {
+  padding: 20px 10px;
+  font-family: Calibri;
+  max-width: 2000px;
+  margin: 0 auto;
+  font-size: 1.4em;
+}
+
+.code {
+  font-family: Calibri;
+  color: black;
+  font-weight: bold;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.code-block {
+  font-family: Calibri;
+  background-color: white;
+  padding: 2px 4px;
+  display: inline-block;
+  color: black;
+}
+
+.concept {
+  background-color: lightblue;
+  padding: 4px;
+  margin: 10px;
+  border-radius: 4px;
+  color: black;
+}
+
+.concept-description {
+  font-weight: lighter;
+  margin: 6px;
+}
+
+.concept-title {
+  font-size: 30px;
+  margin: 8px;
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: blue;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+.indent {
+  margin-left: 38px;
+}
+
+.lesson {
+  background-color: blue;
+  border-radius: 50px;
+  color: black;
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+  line-height: 44px;
+  /* each line of text should occupy 44 pixels of height (good for mobile usage and fat fingers) */
+}
+
+p {
+  margin: 10px 0;
+}
+
+span.code {
+  font-family: Calibri;
+  background-color: white;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  /* this removes the bullets that show up by default in unordered lists */
+}
